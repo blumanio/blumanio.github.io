@@ -1,0 +1,12 @@
+const S=window.STUDY; const select=document.querySelector('#well');
+function render(){const well=select.value, rows=S.series[well], q=S.summary[well];
+document.querySelector('#metrics').innerHTML=`<div class="metric"><strong>${q.count} / 12</strong><span>Valid measurements</span></div><div class="metric"><strong>${q.range_m.toFixed(2)} m</strong><span>Annual head range</span></div><div class="metric"><strong>${q.first_to_last_change_m.toFixed(2)} m</strong><span>First-to-last change</span></div>`;
+const svg=document.querySelector('#chart'), low=96.5, high=100, x=i=>65+i*70, y=h=>275-(h-low)/(high-low)*230; let parts=[];
+for(let h=97;h<=100;h++){parts.push(`<path d="M65 ${y(h)}H850" stroke="#d2d9d0"/><text x="15" y="${y(h)+4}">${h}</text>`)}
+parts.push('<text x="15" y="18">Head (m)</text>'); let segment=[];
+for(let i=0;i<rows.length;i++){const r=rows[i];parts.push(`<text x="${x(i)}" y="305" text-anchor="middle">${['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][i]}</text>`);if(r.head_m===null){if(segment.length)parts.push(`<polyline points="${segment.join(' ')}" fill="none" stroke="#18665b" stroke-width="3"/>`);segment=[];parts.push(`<text x="${x(i)}" y="263" text-anchor="middle">No data</text>`)}else segment.push(`${x(i)},${y(r.head_m)}`)}
+if(segment.length)parts.push(`<polyline points="${segment.join(' ')}" fill="none" stroke="#18665b" stroke-width="3"/>`);
+rows.forEach((r,i)=>{if(r.head_m!==null)parts.push(`<circle cx="${x(i)}" cy="${y(r.head_m)}" r="5" fill="#18665b"><title>${r.date}: ${r.head_m.toFixed(3)} m</title></circle>`)});svg.innerHTML=parts.join('');svg.setAttribute('aria-label',`${well}: hydraulic head over 2025, ${q.count} readings, annual range ${q.range_m} metres`);
+document.querySelector('#rows').innerHTML=rows.map(r=>`<tr><td>${r.date}</td><td>${r.head_m===null?'—':r.head_m.toFixed(3)}</td><td>${r.head_m===null?'Missing; excluded from statistics':'Valid synthetic reading'}</td></tr>`).join('');
+document.querySelector('#interpretation').textContent=`${well} ranges from ${q.min_m.toFixed(2)} to ${q.max_m.toFixed(2)} m. The first-to-last change is ${q.first_to_last_change_m.toFixed(2)} m. The seasonal rise and fall were deliberately built into this fictional dataset; no real-world cause can be inferred.${q.count<12?' One July reading is missing, so the measured range may understate the full annual range.':''}`;}
+select.addEventListener('change',render);render();

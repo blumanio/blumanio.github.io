@@ -1,0 +1,92 @@
+[
+  {
+    "well": "MW-01",
+    "date": "2025-09-15",
+    "analyte": "nitrate",
+    "value": 18,
+    "qualifier": "=",
+    "unit": "mg/L",
+    "reference": 50,
+    "status": "At or below reference"
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-09-15",
+    "analyte": "chloride",
+    "value": 90,
+    "qualifier": "=",
+    "unit": "mg/L",
+    "reference": 250,
+    "status": "At or below reference"
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-09-15",
+    "analyte": "benzene",
+    "value": 0.5,
+    "qualifier": "<",
+    "unit": "ug/L",
+    "reference": 1,
+    "status": "Below reference (non-detect)"
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-09-15",
+    "analyte": "nitrate",
+    "value": 62,
+    "qualifier": "=",
+    "unit": "mg/L",
+    "reference": 50,
+    "status": "Above reference"
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-09-15",
+    "analyte": "chloride",
+    "value": 310,
+    "qualifier": "=",
+    "unit": "mg/L",
+    "reference": 250,
+    "status": "Above reference"
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-09-15",
+    "analyte": "benzene",
+    "value": 1.8,
+    "qualifier": "=",
+    "unit": "ug/L",
+    "reference": 1,
+    "status": "Above reference"
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-09-15",
+    "analyte": "nitrate",
+    "value": 35,
+    "qualifier": "=",
+    "unit": "mg/L",
+    "reference": 50,
+    "status": "At or below reference"
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-09-15",
+    "analyte": "chloride",
+    "value": 180,
+    "qualifier": "=",
+    "unit": "mg/L",
+    "reference": 250,
+    "status": "At or below reference"
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-09-15",
+    "analyte": "benzene",
+    "value": 2,
+    "qualifier": "<",
+    "unit": "ug/L",
+    "reference": 1,
+    "status": "Indeterminate"
+  }
+]

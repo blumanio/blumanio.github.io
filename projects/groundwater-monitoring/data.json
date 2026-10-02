@@ -1,0 +1,218 @@
+[
+  {
+    "well": "MW-01",
+    "date": "2025-01-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 5.0
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-02-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 4.75
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-03-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 4.574
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-04-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 4.525
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-05-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 4.624
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-06-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 4.85
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-07-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 5.15
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-08-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 5.45
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-09-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 5.676
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-10-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 5.775
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-11-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 5.726
+  },
+  {
+    "well": "MW-01",
+    "date": "2025-12-15",
+    "measuring_point_m": 104,
+    "depth_to_water_m": 5.55
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-01-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": 5.0
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-02-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": 4.75
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-03-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": 4.574
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-04-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": 4.525
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-05-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": 4.624
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-06-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": 4.85
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-07-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": null
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-08-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": 5.45
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-09-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": 5.676
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-10-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": 5.775
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-11-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": 5.726
+  },
+  {
+    "well": "MW-02",
+    "date": "2025-12-15",
+    "measuring_point_m": 103,
+    "depth_to_water_m": 5.55
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-01-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 4.5
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-02-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 4.25
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-03-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 4.074
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-04-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 4.025
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-05-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 4.124
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-06-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 4.35
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-07-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 4.65
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-08-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 4.95
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-09-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 5.176
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-10-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 5.275
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-11-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 5.226
+  },
+  {
+    "well": "MW-03",
+    "date": "2025-12-15",
+    "measuring_point_m": 102,
+    "depth_to_water_m": 5.05
+  }
+]

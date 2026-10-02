@@ -1,0 +1,72 @@
+{
+  "coordinate_system": "Fictional local Cartesian grid; x east, y north, metres. No geographic CRS.",
+  "wells": [
+    {
+      "id": "MW-01",
+      "x": 100,
+      "y": 100,
+      "head_m": 99.0,
+      "unit": "Sand and gravel"
+    },
+    {
+      "id": "MW-02",
+      "x": 900,
+      "y": 100,
+      "head_m": 97.4,
+      "unit": "Sand and gravel"
+    },
+    {
+      "id": "MW-03",
+      "x": 100,
+      "y": 700,
+      "head_m": 98.4,
+      "unit": "Sand and gravel"
+    }
+  ],
+  "units": [
+    {
+      "name": "Sand and gravel",
+      "color": "#bed3b6",
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          1000,
+          0
+        ],
+        [
+          1000,
+          800
+        ],
+        [
+          0,
+          800
+        ]
+      ]
+    },
+    {
+      "name": "Clay-rich cover",
+      "color": "#dac89e",
+      "polygon": [
+        [
+          450,
+          400
+        ],
+        [
+          1000,
+          250
+        ],
+        [
+          1000,
+          800
+        ],
+        [
+          700,
+          800
+        ]
+      ]
+    }
+  ]
+}
