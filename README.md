@@ -11,8 +11,11 @@ I'm building practical tools to explore geology, groundwater and environmental d
 | Groundwater monitoring | Hydraulic heads, seasonal charts, missing-data handling | [Code and methods](projects/groundwater-monitoring/) |
 | Water-quality screening | Explicit units, reference comparisons, non-detect logic | [Code and methods](projects/water-quality/) |
 | Conceptual groundwater map | Three-well head plane, gradient and geological context | [Code and methods](projects/groundwater-map/) |
+| Acqua in chiaro — in development | Mineral-water label provenance, planned geochemical QA and transparent evidence | [Project brief](projects/acqua-in-chiaro/) |
 
-All three are portfolio demonstrations using **synthetic data**, not client work. No employer affiliation, degree, certification or prior professional experience is implied.
+The Acqua in chiaro entry is a project brief, not a functioning catalogue. Its legal and scientific review is pending.
+
+The three interactive studies are portfolio demonstrations using **synthetic data**, not client work. No employer affiliation, degree, certification or prior professional experience is implied.
 
 ## Run locally
 
