@@ -64,3 +64,15 @@ Known limitations: browser QA unverified; incomplete/stale analyses; inactive CI
 6. Authorize the separate root CI workflow installation (and required-check settings if desired). No root change was made in this release.
 
 Live deployment verification is appended after the Pages Action completes; HTTP checks do not replace browser QA.
+
+## Deployment verification — completed
+
+- Release commit: `a56be62c055f4d80223d5622ec60e30dfb086aa8`.
+- Existing GitHub Pages Action run `38077042492`: **completed / success**.
+- GitHub comparison against the previous commit: 120 changed files, all under `projects/acqua-in-chiaro/`; none outside.
+- HTTP 200 with release titles and CSP: home, `/acque/levissima/`, `/confronta/?ids=levissima,acqua-panna,milano-18-2026-07`, `/rubinetto/milano/`.
+- Verified page HTML contains GitHub Pages base paths and no `mohamedelaammari.com` link.
+- Browser interaction and mobile visual checks remain unexecuted, as stated above.
+
+- Live JS bundles, stylesheet, both WOFF2 fonts and sitemap: HTTP 200.
+- Build now generates 20 water-specific and 9 guide-specific PNG share images, plus home; one representative water PNG visually inspected. This is not website visual QA.
