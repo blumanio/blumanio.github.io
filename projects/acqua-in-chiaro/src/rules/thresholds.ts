@@ -3,6 +3,7 @@
  * verified means the numerical criterion was read in the cited primary text.
  * It does NOT mean a water is compliant, safe, medically suitable or authorised
  * to display a claim. Publication/health-content review remains a separate gate.
+ * enabled means usable reference metadata, never permission to publish a claim.
  * No clinical profile or recommendation engine is implemented at this checkpoint.
  */
 export interface LegalSource {
@@ -51,7 +52,7 @@ export type Threshold = Criterion & Verification & {
   readonly label_it: string;
   readonly field: Field;
   readonly unit: "mg/L";
-  readonly kind: "composition_mention" | "maximum" | "warning_trigger" | "unverified_proposal";
+  readonly kind: "composition_criterion" | "maximum" | "warning_trigger" | "unverified_proposal";
   readonly notes: string;
 };
 export const THRESHOLDS = {
@@ -61,7 +62,7 @@ export const THRESHOLDS = {
     "operator": "lte",
     "value": 50,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -74,7 +75,7 @@ export const THRESHOLDS = {
     ],
     "verified": true,
     "enabled": true,
-    "notes": "Use the most specific label for exclusive UI buckets; this also satisfies the <=500 legal criterion."
+    "notes": "Reference criterion only. UI classes use numeric intervals; legal mention display requires documentation."
   },
   "low_minerals": {
     "label_it": "Oligominerale",
@@ -82,7 +83,7 @@ export const THRESHOLDS = {
     "operator": "lte",
     "value": 500,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -103,7 +104,7 @@ export const THRESHOLDS = {
     "operator": "gt",
     "value": 1500,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -124,7 +125,7 @@ export const THRESHOLDS = {
     "operator": "gt",
     "value": 600,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -145,7 +146,7 @@ export const THRESHOLDS = {
     "operator": "gt",
     "value": 200,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -166,7 +167,7 @@ export const THRESHOLDS = {
     "operator": "gt",
     "value": 200,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -187,7 +188,7 @@ export const THRESHOLDS = {
     "operator": "gt",
     "value": 150,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -208,7 +209,7 @@ export const THRESHOLDS = {
     "operator": "gt",
     "value": 50,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -229,7 +230,7 @@ export const THRESHOLDS = {
     "operator": "gt",
     "value": 1,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -250,7 +251,7 @@ export const THRESHOLDS = {
     "operator": "gt",
     "value": 1,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -271,7 +272,7 @@ export const THRESHOLDS = {
     "operator": "gt",
     "value": 250,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -292,7 +293,7 @@ export const THRESHOLDS = {
     "operator": "gt",
     "value": 200,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -313,7 +314,7 @@ export const THRESHOLDS = {
     "operator": "lt",
     "value": 20,
     "unit": "mg/L",
-    "kind": "composition_mention",
+    "kind": "composition_criterion",
     "legal_source": [
       {
         "source": "dlgs176",
@@ -444,7 +445,7 @@ export const THRESHOLDS = {
 
 export const REVIEW = {
   checked_on: "2026-10-10",
-  checkpoint: 1,
+  checkpoint: 2,
   publication_approved: false,
   health_profiles_enabled: false,
   infant_suitability_inference_enabled: false,
@@ -453,18 +454,24 @@ export const REVIEW = {
 
 /** Non-numerical requirements are deliberately not disguised as thresholds. */
 export const CLAIM_POLICY = {
+  automatic_health_filters: false,
+  suitability_verdicts: false,
+  comparison_verdicts: false,
+  regulatory_mentions_from_chemistry: false,
+  documented_claim_sources: ["etichetta", "decreto"],
+  ferrous_descriptor_exception: { field: "ferro_bivalente", minimum_exclusive: 1, total_iron_fallback: false, is_label_claim: false },
   infant_food: {
     verified: true,
     source: "dlgs176",
     provision: "Art. 12(4)(c)–(d)",
-    requires: ["label transcription", "matching recognition-decree mention"],
+    requires: ["documented label OR recognition decree", "claim_source", "decree_reference where available"],
     infer_from_chemistry: false,
   },
   laxative_diuretic_digestive: {
     verified: true,
     source: "dlgs176",
     provision: "Art. 12(4)(a), (b), (e), (f), (g)",
-    requires: ["label transcription", "matching recognition-decree mention"],
+    requires: ["documented label OR recognition decree", "claim_source", "decree_reference where available"],
     infer_from_chemistry: false,
   },
   optional_composition_mentions: {
@@ -474,3 +481,4 @@ export const CLAIM_POLICY = {
     computed_match_is_authorisation: false,
   },
 } as const;
+

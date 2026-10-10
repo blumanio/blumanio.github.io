@@ -1,46 +1,32 @@
 # Acqua in chiaro
 
-**Status: checkpoint 1 implemented — legal-source configuration awaiting review.** No operational catalogue or clinical recommendation engine is included yet.
+**Checkpoint 2: corrected specification, source review and two design proposals.** The operational catalogue is not built yet.
 
-[Review the verified threshold table and required corrections](docs/checkpoint-1.md) · [TypeScript configuration](src/rules/thresholds.ts)
+[Project overview](https://blumanio.github.io/projects/acqua-in-chiaro/) · [Rendered design options](https://blumanio.github.io/projects/acqua-in-chiaro/docs/design-options.html) · [Checkpoint and open items](docs/checkpoint-2.md)
 
-[Read the Italian project overview](https://blumanio.github.io/projects/acqua-in-chiaro/)
+A neutral Italian-language composition comparison project by Mohamed El Aammari, environmental geologist and React developer, as described in the supplied brief. Planned stack: Astro + React islands + strict TypeScript + Tailwind. Existing hosting stays on GitHub Pages; no custom domain.
 
-## Purpose
+## Approved scope
 
-A free, neutral Italian-language tool to understand bottled mineral-water labels, connect composition with aquifer geology, and compare declared values with fully traceable sources. Author: Mohamed El Aammari, environmental geologist and React developer (as described in the supplied project brief).
+- Compare sourced composition values, dates and units for up to three waters, with a Milano zone/month option.
+- Six neutral entry points: sodium <20, calcium >150, sulfate >200, magnesium >50, nitrate ≤10 mg/L, and numeric fixed-residue classes.
+- Regulatory/health mentions only as documented label/decree transcriptions, with `claim_source` and decree reference where available. Never infer infant suitability or low-sodium-diet wording from chemistry.
+- Separate total/unspecified iron from `ferro_bivalente`. Only declared Fe(II)>1 mg/L can produce the explicitly computed ferruginosa composition descriptor; it is not a printed claim.
+- Nine evidence guides, all guide-only. No clinical recommendation engine, automatic health filters or suitability verdicts.
+- Catalogue target: at least 50 waters seeded from official producer records, then progressively confirmed/replaced with owner label photographs. Missing values stay missing.
 
-## Planned MVP
+## Review materials
 
-- A catalogue targeting at least 50 mineral waters, entered manually from documented label photographs.
-- Composition tables, provenance, analysis dates and geological notes.
-- Declarative classifications and profile guides, gated by primary-source verification and health-content review.
-- A generic interactive label explainer and comparisons of up to three waters.
-- A Milan tap-water page using dated utility publications.
-- Methodology and source documentation.
+- [Revised specification](SPEC.md), particularly §4, §5.3, §8.2–8.3 and §9.
+- [Threshold register](src/rules/thresholds.ts) and [checkpoint 1](docs/checkpoint-1.md). Checkpoint 2 policy supersedes earlier claim-display assumptions.
+- [Milano source and import contract](docs/milano-source.md).
+- [References, abstract checks and outstanding items](docs/references.md).
+- [All-page wireframes, edge states and design rationale](docs/wireframes.md).
 
-No rankings, brand scores, sponsorship, affiliate links, accounts or backend. Price tracking, contaminant claims and additional cities are outside the initial scope.
+Choose Taccuino di campo (recommended for mobile discovery) or Atlante dei dati (denser comparison-first layout). The preview has local filter selection and a clearly labelled synthetic table, not real catalogue results. The next checkpoint covers schema validation, a candidate list of 50 waters and five source-backed seed records.
 
-## Planned architecture
+No health copy, legal pages, production dataset, performance scores or complete app are claimed at this stage. Remaining research and preview-verification limitations are listed in the checkpoint report. No project dependencies were added.
 
-Astro, React islands, strict TypeScript and Tailwind. CSV inputs pass through Zod validation into typed JSON at build time. Lightweight SVG charts. Static hosting, with no trackers. The portfolio overview is plain HTML; the planned application has not been implemented here.
+## Roadmap outside v1
 
-## Data pipeline design
-
-Record identity, source location, composition, printed claims and provenance: label image, analysis date/laboratory, entry author/date and official source URL. Missing values remain missing. Checks cover numeric ranges, units, ionic charge balance, plausibility, inconsistent claims and stale records. An ion-balance check is a data-consistency check, not proof of water safety; incomplete ion panels and overrides require explicit documentation.
-
-## Verification gates
-
-1. Verify legal thresholds and available Ministry records against current primary sources; document exact provisions and unverified items. Review before proceeding.
-2. Build the schema and validator, then three sourced pilot records; review.
-3. Implement classification rules and boundary/ion-balance tests; review.
-4. Build catalogue, details and profile UI; review a running preview.
-5. Check scientific references and review every health-related sentence.
-6. Add verified Milan utility data and comparison.
-7. Complete accessibility, SEO and mobile performance checks; expand the documented catalogue before declaring MVP completion.
-
-The supplied brief's numerical thresholds, infant-suitability logic and health profiles are **proposals requiring verification**, not validated guidance. They are intentionally not published as working recommendations in this overview. No real water records, clinical evidence ratings, legal verification or performance scores are claimed.
-
-## Current deliverables
-
-The portfolio overview, this brief, and the checkpoint-1 source-audited TypeScript threshold configuration. Next: review checkpoint 1, then build the data pipeline. No dependencies or health filters have been added to the live portfolio.
+Prices, additional cities, Piper/Schoeller diagrams, contaminant datasets, accounts, reviews, English version and native app.
