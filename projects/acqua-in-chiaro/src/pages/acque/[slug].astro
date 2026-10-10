@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Provenance from '../../components/Provenance.astro';
+import Composition from '../../components/Composition.astro';
+import {CompareButton,Tray} from '../../components/Interactive';
+import {waters,href} from '../../lib';
+export function getStaticPaths(){return waters.map(w=>({params:{slug:w.slug},props:{water:w}}));}
+const {water:w}=Astro.props;
+---
+<Layout title={w.name} description={`Composizione dichiarata di ${w.name}. Valori, dati mancanti e fonte del produttore; analisi ${w.analysis_date||'senza data dichiarata'}.`}><div class="breadcrumbs"><a href={href()}>Home</a> / <a href={href('acque/')}>Acque</a> / {w.name}</div><p class="eyebrow">Scheda di composizione · {w.source_type}</p><h1>{w.name}</h1><p>Analisi: <strong>{w.analysis_date||'data non dichiarata'}</strong> · fonte: {w.source_name||'vedi documento originale'}.</p><div class="actions"><CompareButton slug={w.slug} client:load/><a href="#provenienza">Vai alla provenienza ↓</a></div><div style="margin-top:32px"><Composition water={w}/></div><section><h2>Diciture documentate</h2>{w.claims.length?w.claims.map(c=><div class="panel"><p>{c.text}</p><a href={c.source_url}>{c.claim_source} · {c.decree_reference||'riferimento disponibile nella fonte'}</a></div>):<p>Nessuna dicitura acquisita da un’etichetta o da un decreto per questa scheda. Questo campo non viene compilato dai valori chimici.</p>}</section><Provenance water={w}/><section class="panel"><h2>Nota geologica</h2><p class="guide-badge">In revisione · testo dell’autore</p><p>Spazio riservato alla nota di Mohamed sulla sorgente, le rocce e il percorso dell’acqua. Contenuto non ancora disponibile.</p><a href={href('perche-sono-diverse/')}>Apri il taccuino geologico →</a></section><Tray client:load/></Layout>

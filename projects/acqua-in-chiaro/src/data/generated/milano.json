@@ -1,0 +1,2282 @@
+[
+  {
+    "slug": "milano-18-2026-07",
+    "name": "Milano · Nord-Est · Luglio 2026",
+    "source_name": "Nord-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 435,
+        "qualifier": "=",
+        "raw": "435"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.4,
+        "qualifier": "=",
+        "raw": "7,4"
+      },
+      "conducibilita": {
+        "value": 607,
+        "qualifier": "=",
+        "raw": "607"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 94,
+        "qualifier": "=",
+        "raw": "94"
+      },
+      "magnesio": {
+        "value": 19.6,
+        "qualifier": "=",
+        "raw": "19,6"
+      },
+      "sodio": {
+        "value": 16,
+        "qualifier": "=",
+        "raw": "16"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 243,
+        "qualifier": "=",
+        "raw": "243"
+      },
+      "solfati": {
+        "value": 43,
+        "qualifier": "=",
+        "raw": "43"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 34,
+        "qualifier": "=",
+        "raw": "34"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Est",
+    "period": "2026-07"
+  },
+  {
+    "slug": "milano-6-2026-07",
+    "name": "Milano · Nord-Ovest · Luglio 2026",
+    "source_name": "Nord-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 362,
+        "qualifier": "=",
+        "raw": "362"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.4,
+        "qualifier": "=",
+        "raw": "7,4"
+      },
+      "conducibilita": {
+        "value": 506,
+        "qualifier": "=",
+        "raw": "506"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 72,
+        "qualifier": "=",
+        "raw": "72"
+      },
+      "magnesio": {
+        "value": 14.4,
+        "qualifier": "=",
+        "raw": "14,4"
+      },
+      "sodio": {
+        "value": 18,
+        "qualifier": "=",
+        "raw": "18"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 175,
+        "qualifier": "=",
+        "raw": "175"
+      },
+      "solfati": {
+        "value": 43,
+        "qualifier": "=",
+        "raw": "43"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 29,
+        "qualifier": "=",
+        "raw": "29"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 24,
+        "qualifier": "=",
+        "raw": "24"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Ovest",
+    "period": "2026-07"
+  },
+  {
+    "slug": "milano-16-2026-07",
+    "name": "Milano · Sud-Est · Luglio 2026",
+    "source_name": "Sud-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 414,
+        "qualifier": "=",
+        "raw": "414"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.5,
+        "qualifier": "=",
+        "raw": "7,5"
+      },
+      "conducibilita": {
+        "value": 579,
+        "qualifier": "=",
+        "raw": "579"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 93,
+        "qualifier": "=",
+        "raw": "93"
+      },
+      "magnesio": {
+        "value": 19,
+        "qualifier": "=",
+        "raw": "19"
+      },
+      "sodio": {
+        "value": 16,
+        "qualifier": "=",
+        "raw": "16"
+      },
+      "potassio": {
+        "value": 2,
+        "qualifier": "=",
+        "raw": "2"
+      },
+      "bicarbonati": {
+        "value": 230,
+        "qualifier": "=",
+        "raw": "230"
+      },
+      "solfati": {
+        "value": 46,
+        "qualifier": "=",
+        "raw": "46"
+      },
+      "cloruri": {
+        "value": 28,
+        "qualifier": "=",
+        "raw": "28"
+      },
+      "nitrati": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 31,
+        "qualifier": "=",
+        "raw": "31"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Est",
+    "period": "2026-07"
+  },
+  {
+    "slug": "milano-15-2026-07",
+    "name": "Milano · Sud-Ovest · Luglio 2026",
+    "source_name": "Sud-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 373,
+        "qualifier": "=",
+        "raw": "373"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.6,
+        "qualifier": "=",
+        "raw": "7,6"
+      },
+      "conducibilita": {
+        "value": 521,
+        "qualifier": "=",
+        "raw": "521"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 74,
+        "qualifier": "=",
+        "raw": "74"
+      },
+      "magnesio": {
+        "value": 16,
+        "qualifier": "=",
+        "raw": "16"
+      },
+      "sodio": {
+        "value": 17,
+        "qualifier": "=",
+        "raw": "17"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 194,
+        "qualifier": "=",
+        "raw": "194"
+      },
+      "solfati": {
+        "value": 44,
+        "qualifier": "=",
+        "raw": "44"
+      },
+      "cloruri": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      },
+      "nitrati": {
+        "value": 25,
+        "qualifier": "=",
+        "raw": "25"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 25,
+        "qualifier": "=",
+        "raw": "25"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Ovest",
+    "period": "2026-07"
+  },
+  {
+    "slug": "milano-18-2026-06",
+    "name": "Milano · Nord-Est · Giugno 2026",
+    "source_name": "Nord-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 426,
+        "qualifier": "=",
+        "raw": "426"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.4,
+        "qualifier": "=",
+        "raw": "7,4"
+      },
+      "conducibilita": {
+        "value": 595,
+        "qualifier": "=",
+        "raw": "595"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 82,
+        "qualifier": "=",
+        "raw": "82"
+      },
+      "magnesio": {
+        "value": 18.3,
+        "qualifier": "=",
+        "raw": "18,3"
+      },
+      "sodio": {
+        "value": 16,
+        "qualifier": "=",
+        "raw": "16"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 239,
+        "qualifier": "=",
+        "raw": "239"
+      },
+      "solfati": {
+        "value": 43,
+        "qualifier": "=",
+        "raw": "43"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 34,
+        "qualifier": "=",
+        "raw": "34"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 28,
+        "qualifier": "=",
+        "raw": "28"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Est",
+    "period": "2026-06"
+  },
+  {
+    "slug": "milano-6-2026-06",
+    "name": "Milano · Nord-Ovest · Giugno 2026",
+    "source_name": "Nord-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 354,
+        "qualifier": "=",
+        "raw": "354"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.4,
+        "qualifier": "=",
+        "raw": "7,4"
+      },
+      "conducibilita": {
+        "value": 494,
+        "qualifier": "=",
+        "raw": "494"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 69,
+        "qualifier": "=",
+        "raw": "69"
+      },
+      "magnesio": {
+        "value": 12.9,
+        "qualifier": "=",
+        "raw": "12,9"
+      },
+      "sodio": {
+        "value": 15,
+        "qualifier": "=",
+        "raw": "15"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 177,
+        "qualifier": "=",
+        "raw": "177"
+      },
+      "solfati": {
+        "value": 43,
+        "qualifier": "=",
+        "raw": "43"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 29,
+        "qualifier": "=",
+        "raw": "29"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 23,
+        "qualifier": "=",
+        "raw": "23"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Ovest",
+    "period": "2026-06"
+  },
+  {
+    "slug": "milano-16-2026-06",
+    "name": "Milano · Sud-Est · Giugno 2026",
+    "source_name": "Sud-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 401,
+        "qualifier": "=",
+        "raw": "401"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.6,
+        "qualifier": "=",
+        "raw": "7,6"
+      },
+      "conducibilita": {
+        "value": 561,
+        "qualifier": "=",
+        "raw": "561"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 80,
+        "qualifier": "=",
+        "raw": "80"
+      },
+      "magnesio": {
+        "value": 18.5,
+        "qualifier": "=",
+        "raw": "18,5"
+      },
+      "sodio": {
+        "value": 14,
+        "qualifier": "=",
+        "raw": "14"
+      },
+      "potassio": {
+        "value": 2,
+        "qualifier": "=",
+        "raw": "2"
+      },
+      "bicarbonati": {
+        "value": 229,
+        "qualifier": "=",
+        "raw": "229"
+      },
+      "solfati": {
+        "value": 46,
+        "qualifier": "=",
+        "raw": "46"
+      },
+      "cloruri": {
+        "value": 28,
+        "qualifier": "=",
+        "raw": "28"
+      },
+      "nitrati": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 28,
+        "qualifier": "=",
+        "raw": "28"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Est",
+    "period": "2026-06"
+  },
+  {
+    "slug": "milano-15-2026-06",
+    "name": "Milano · Sud-Ovest · Giugno 2026",
+    "source_name": "Sud-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 369,
+        "qualifier": "=",
+        "raw": "369"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.6,
+        "qualifier": "=",
+        "raw": "7,6"
+      },
+      "conducibilita": {
+        "value": 516,
+        "qualifier": "=",
+        "raw": "516"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 72,
+        "qualifier": "=",
+        "raw": "72"
+      },
+      "magnesio": {
+        "value": 15.3,
+        "qualifier": "=",
+        "raw": "15,3"
+      },
+      "sodio": {
+        "value": 15,
+        "qualifier": "=",
+        "raw": "15"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 202,
+        "qualifier": "=",
+        "raw": "202"
+      },
+      "solfati": {
+        "value": 44,
+        "qualifier": "=",
+        "raw": "44"
+      },
+      "cloruri": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      },
+      "nitrati": {
+        "value": 25,
+        "qualifier": "=",
+        "raw": "25"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 24,
+        "qualifier": "=",
+        "raw": "24"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Ovest",
+    "period": "2026-06"
+  },
+  {
+    "slug": "milano-18-2026-04",
+    "name": "Milano · Nord-Est · Aprile 2026",
+    "source_name": "Nord-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 431,
+        "qualifier": "=",
+        "raw": "431"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.4,
+        "qualifier": "=",
+        "raw": "7,4"
+      },
+      "conducibilita": {
+        "value": 602,
+        "qualifier": "=",
+        "raw": "602"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 95,
+        "qualifier": "=",
+        "raw": "95"
+      },
+      "magnesio": {
+        "value": 19.2,
+        "qualifier": "=",
+        "raw": "19,2"
+      },
+      "sodio": {
+        "value": 16,
+        "qualifier": "=",
+        "raw": "16"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 244,
+        "qualifier": "=",
+        "raw": "244"
+      },
+      "solfati": {
+        "value": 41,
+        "qualifier": "=",
+        "raw": "41"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 34,
+        "qualifier": "=",
+        "raw": "34"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Est",
+    "period": "2026-04"
+  },
+  {
+    "slug": "milano-6-2026-04",
+    "name": "Milano · Nord-Ovest · Aprile 2026",
+    "source_name": "Nord-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 359,
+        "qualifier": "=",
+        "raw": "359"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.4,
+        "qualifier": "=",
+        "raw": "7,4"
+      },
+      "conducibilita": {
+        "value": 501,
+        "qualifier": "=",
+        "raw": "501"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 75,
+        "qualifier": "=",
+        "raw": "75"
+      },
+      "magnesio": {
+        "value": 14.5,
+        "qualifier": "=",
+        "raw": "14,5"
+      },
+      "sodio": {
+        "value": 18,
+        "qualifier": "=",
+        "raw": "18"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 176,
+        "qualifier": "=",
+        "raw": "176"
+      },
+      "solfati": {
+        "value": 43,
+        "qualifier": "=",
+        "raw": "43"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 28,
+        "qualifier": "=",
+        "raw": "28"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 24,
+        "qualifier": "=",
+        "raw": "24"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Ovest",
+    "period": "2026-04"
+  },
+  {
+    "slug": "milano-16-2026-04",
+    "name": "Milano · Sud-Est · Aprile 2026",
+    "source_name": "Sud-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 407,
+        "qualifier": "=",
+        "raw": "407"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.5,
+        "qualifier": "=",
+        "raw": "7,5"
+      },
+      "conducibilita": {
+        "value": 568,
+        "qualifier": "=",
+        "raw": "568"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 89,
+        "qualifier": "=",
+        "raw": "89"
+      },
+      "magnesio": {
+        "value": 19,
+        "qualifier": "=",
+        "raw": "19"
+      },
+      "sodio": {
+        "value": 14,
+        "qualifier": "=",
+        "raw": "14"
+      },
+      "potassio": {
+        "value": 2,
+        "qualifier": "=",
+        "raw": "2"
+      },
+      "bicarbonati": {
+        "value": 232,
+        "qualifier": "=",
+        "raw": "232"
+      },
+      "solfati": {
+        "value": 46,
+        "qualifier": "=",
+        "raw": "46"
+      },
+      "cloruri": {
+        "value": 28,
+        "qualifier": "=",
+        "raw": "28"
+      },
+      "nitrati": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 30,
+        "qualifier": "=",
+        "raw": "30"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Est",
+    "period": "2026-04"
+  },
+  {
+    "slug": "milano-15-2026-04",
+    "name": "Milano · Sud-Ovest · Aprile 2026",
+    "source_name": "Sud-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 376,
+        "qualifier": "=",
+        "raw": "376"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.6,
+        "qualifier": "=",
+        "raw": "7,6"
+      },
+      "conducibilita": {
+        "value": 525,
+        "qualifier": "=",
+        "raw": "525"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 80,
+        "qualifier": "=",
+        "raw": "80"
+      },
+      "magnesio": {
+        "value": 17.2,
+        "qualifier": "=",
+        "raw": "17,2"
+      },
+      "sodio": {
+        "value": 17,
+        "qualifier": "=",
+        "raw": "17"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 195,
+        "qualifier": "=",
+        "raw": "195"
+      },
+      "solfati": {
+        "value": 50,
+        "qualifier": "=",
+        "raw": "50"
+      },
+      "cloruri": {
+        "value": 30,
+        "qualifier": "=",
+        "raw": "30"
+      },
+      "nitrati": {
+        "value": 28,
+        "qualifier": "=",
+        "raw": "28"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Ovest",
+    "period": "2026-04"
+  },
+  {
+    "slug": "milano-18-2026-03",
+    "name": "Milano · Nord-Est · Marzo 2026",
+    "source_name": "Nord-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 433,
+        "qualifier": "=",
+        "raw": "433"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.5,
+        "qualifier": "=",
+        "raw": "7,5"
+      },
+      "conducibilita": {
+        "value": 604,
+        "qualifier": "=",
+        "raw": "604"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 95,
+        "qualifier": "=",
+        "raw": "95"
+      },
+      "magnesio": {
+        "value": 19.2,
+        "qualifier": "=",
+        "raw": "19,2"
+      },
+      "sodio": {
+        "value": 16,
+        "qualifier": "=",
+        "raw": "16"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 239,
+        "qualifier": "=",
+        "raw": "239"
+      },
+      "solfati": {
+        "value": 41,
+        "qualifier": "=",
+        "raw": "41"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 35,
+        "qualifier": "=",
+        "raw": "35"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Est",
+    "period": "2026-03"
+  },
+  {
+    "slug": "milano-6-2026-03",
+    "name": "Milano · Nord-Ovest · Marzo 2026",
+    "source_name": "Nord-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 356,
+        "qualifier": "=",
+        "raw": "356"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.4,
+        "qualifier": "=",
+        "raw": "7,4"
+      },
+      "conducibilita": {
+        "value": 497,
+        "qualifier": "=",
+        "raw": "497"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 75,
+        "qualifier": "=",
+        "raw": "75"
+      },
+      "magnesio": {
+        "value": 14.5,
+        "qualifier": "=",
+        "raw": "14,5"
+      },
+      "sodio": {
+        "value": 18,
+        "qualifier": "=",
+        "raw": "18"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 184,
+        "qualifier": "=",
+        "raw": "184"
+      },
+      "solfati": {
+        "value": 43,
+        "qualifier": "=",
+        "raw": "43"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 28,
+        "qualifier": "=",
+        "raw": "28"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 24,
+        "qualifier": "=",
+        "raw": "24"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Ovest",
+    "period": "2026-03"
+  },
+  {
+    "slug": "milano-16-2026-03",
+    "name": "Milano · Sud-Est · Marzo 2026",
+    "source_name": "Sud-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 402,
+        "qualifier": "=",
+        "raw": "402"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.6,
+        "qualifier": "=",
+        "raw": "7,6"
+      },
+      "conducibilita": {
+        "value": 562,
+        "qualifier": "=",
+        "raw": "562"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 89,
+        "qualifier": "=",
+        "raw": "89"
+      },
+      "magnesio": {
+        "value": 19,
+        "qualifier": "=",
+        "raw": "19"
+      },
+      "sodio": {
+        "value": 14,
+        "qualifier": "=",
+        "raw": "14"
+      },
+      "potassio": {
+        "value": 2,
+        "qualifier": "=",
+        "raw": "2"
+      },
+      "bicarbonati": {
+        "value": 229,
+        "qualifier": "=",
+        "raw": "229"
+      },
+      "solfati": {
+        "value": 47,
+        "qualifier": "=",
+        "raw": "47"
+      },
+      "cloruri": {
+        "value": 29,
+        "qualifier": "=",
+        "raw": "29"
+      },
+      "nitrati": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 30,
+        "qualifier": "=",
+        "raw": "30"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Est",
+    "period": "2026-03"
+  },
+  {
+    "slug": "milano-15-2026-03",
+    "name": "Milano · Sud-Ovest · Marzo 2026",
+    "source_name": "Sud-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 374,
+        "qualifier": "=",
+        "raw": "374"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.6,
+        "qualifier": "=",
+        "raw": "7,6"
+      },
+      "conducibilita": {
+        "value": 522,
+        "qualifier": "=",
+        "raw": "522"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 80,
+        "qualifier": "=",
+        "raw": "80"
+      },
+      "magnesio": {
+        "value": 17.2,
+        "qualifier": "=",
+        "raw": "17,2"
+      },
+      "sodio": {
+        "value": 17,
+        "qualifier": "=",
+        "raw": "17"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 205,
+        "qualifier": "=",
+        "raw": "205"
+      },
+      "solfati": {
+        "value": 31,
+        "qualifier": "=",
+        "raw": "31"
+      },
+      "cloruri": {
+        "value": 21,
+        "qualifier": "=",
+        "raw": "21"
+      },
+      "nitrati": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Ovest",
+    "period": "2026-03"
+  },
+  {
+    "slug": "milano-18-2026-02",
+    "name": "Milano · Nord-Est · Febbraio 2026",
+    "source_name": "Nord-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 430,
+        "qualifier": "=",
+        "raw": "430"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.3,
+        "qualifier": "=",
+        "raw": "7,3"
+      },
+      "conducibilita": {
+        "value": 600,
+        "qualifier": "=",
+        "raw": "600"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 97,
+        "qualifier": "=",
+        "raw": "97"
+      },
+      "magnesio": {
+        "value": 20.4,
+        "qualifier": "=",
+        "raw": "20,4"
+      },
+      "sodio": {
+        "value": 15,
+        "qualifier": "=",
+        "raw": "15"
+      },
+      "potassio": {
+        "value": 2,
+        "qualifier": "=",
+        "raw": "2"
+      },
+      "bicarbonati": {
+        "value": 244,
+        "qualifier": "=",
+        "raw": "244"
+      },
+      "solfati": {
+        "value": 41,
+        "qualifier": "=",
+        "raw": "41"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 35,
+        "qualifier": "=",
+        "raw": "35"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 33,
+        "qualifier": "=",
+        "raw": "33"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Est",
+    "period": "2026-02"
+  },
+  {
+    "slug": "milano-6-2026-02",
+    "name": "Milano · Nord-Ovest · Febbraio 2026",
+    "source_name": "Nord-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 356,
+        "qualifier": "=",
+        "raw": "356"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.3,
+        "qualifier": "=",
+        "raw": "7,3"
+      },
+      "conducibilita": {
+        "value": 497,
+        "qualifier": "=",
+        "raw": "497"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 80,
+        "qualifier": "=",
+        "raw": "80"
+      },
+      "magnesio": {
+        "value": 17.8,
+        "qualifier": "=",
+        "raw": "17,8"
+      },
+      "sodio": {
+        "value": 16,
+        "qualifier": "=",
+        "raw": "16"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 183,
+        "qualifier": "=",
+        "raw": "183"
+      },
+      "solfati": {
+        "value": 43,
+        "qualifier": "=",
+        "raw": "43"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 28,
+        "qualifier": "=",
+        "raw": "28"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Ovest",
+    "period": "2026-02"
+  },
+  {
+    "slug": "milano-16-2026-02",
+    "name": "Milano · Sud-Est · Febbraio 2026",
+    "source_name": "Sud-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 403,
+        "qualifier": "=",
+        "raw": "403"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.4,
+        "qualifier": "=",
+        "raw": "7,4"
+      },
+      "conducibilita": {
+        "value": 563,
+        "qualifier": "=",
+        "raw": "563"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 84,
+        "qualifier": "=",
+        "raw": "84"
+      },
+      "magnesio": {
+        "value": 19.6,
+        "qualifier": "=",
+        "raw": "19,6"
+      },
+      "sodio": {
+        "value": 14,
+        "qualifier": "=",
+        "raw": "14"
+      },
+      "potassio": {
+        "value": 2,
+        "qualifier": "=",
+        "raw": "2"
+      },
+      "bicarbonati": {
+        "value": 230,
+        "qualifier": "=",
+        "raw": "230"
+      },
+      "solfati": {
+        "value": 47,
+        "qualifier": "=",
+        "raw": "47"
+      },
+      "cloruri": {
+        "value": 29,
+        "qualifier": "=",
+        "raw": "29"
+      },
+      "nitrati": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 29,
+        "qualifier": "=",
+        "raw": "29"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Est",
+    "period": "2026-02"
+  },
+  {
+    "slug": "milano-15-2026-02",
+    "name": "Milano · Sud-Ovest · Febbraio 2026",
+    "source_name": "Sud-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 372,
+        "qualifier": "=",
+        "raw": "372"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.4,
+        "qualifier": "=",
+        "raw": "7,4"
+      },
+      "conducibilita": {
+        "value": 520,
+        "qualifier": "=",
+        "raw": "520"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 87,
+        "qualifier": "=",
+        "raw": "87"
+      },
+      "magnesio": {
+        "value": 17.8,
+        "qualifier": "=",
+        "raw": "17,8"
+      },
+      "sodio": {
+        "value": 20,
+        "qualifier": "=",
+        "raw": "20"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 207,
+        "qualifier": "=",
+        "raw": "207"
+      },
+      "solfati": {
+        "value": 44,
+        "qualifier": "=",
+        "raw": "44"
+      },
+      "cloruri": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      },
+      "nitrati": {
+        "value": 27,
+        "qualifier": "=",
+        "raw": "27"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 29,
+        "qualifier": "=",
+        "raw": "29"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Ovest",
+    "period": "2026-02"
+  },
+  {
+    "slug": "milano-18-2026-01",
+    "name": "Milano · Nord-Est · Gennaio 2026",
+    "source_name": "Nord-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 432,
+        "qualifier": "=",
+        "raw": "432"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.3,
+        "qualifier": "=",
+        "raw": "7,3"
+      },
+      "conducibilita": {
+        "value": 603,
+        "qualifier": "=",
+        "raw": "603"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 97,
+        "qualifier": "=",
+        "raw": "97"
+      },
+      "magnesio": {
+        "value": 20.4,
+        "qualifier": "=",
+        "raw": "20,4"
+      },
+      "sodio": {
+        "value": 15,
+        "qualifier": "=",
+        "raw": "15"
+      },
+      "potassio": {
+        "value": 2,
+        "qualifier": "=",
+        "raw": "2"
+      },
+      "bicarbonati": {
+        "value": 246,
+        "qualifier": "=",
+        "raw": "246"
+      },
+      "solfati": {
+        "value": 40,
+        "qualifier": "=",
+        "raw": "40"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 36,
+        "qualifier": "=",
+        "raw": "36"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 33,
+        "qualifier": "=",
+        "raw": "33"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Est",
+    "period": "2026-01"
+  },
+  {
+    "slug": "milano-6-2026-01",
+    "name": "Milano · Nord-Ovest · Gennaio 2026",
+    "source_name": "Nord-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 361,
+        "qualifier": "=",
+        "raw": "361"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.3,
+        "qualifier": "=",
+        "raw": "7,3"
+      },
+      "conducibilita": {
+        "value": 504,
+        "qualifier": "=",
+        "raw": "504"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 77,
+        "qualifier": "=",
+        "raw": "77"
+      },
+      "magnesio": {
+        "value": 15.8,
+        "qualifier": "=",
+        "raw": "15,8"
+      },
+      "sodio": {
+        "value": 17,
+        "qualifier": "=",
+        "raw": "17"
+      },
+      "potassio": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "bicarbonati": {
+        "value": 179,
+        "qualifier": "=",
+        "raw": "179"
+      },
+      "solfati": {
+        "value": 42,
+        "qualifier": "=",
+        "raw": "42"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 29,
+        "qualifier": "=",
+        "raw": "29"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 26,
+        "qualifier": "=",
+        "raw": "26"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Nord-Ovest",
+    "period": "2026-01"
+  },
+  {
+    "slug": "milano-16-2026-01",
+    "name": "Milano · Sud-Est · Gennaio 2026",
+    "source_name": "Sud-Est",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 418,
+        "qualifier": "=",
+        "raw": "418"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.4,
+        "qualifier": "=",
+        "raw": "7,4"
+      },
+      "conducibilita": {
+        "value": 584,
+        "qualifier": "=",
+        "raw": "584"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 90,
+        "qualifier": "=",
+        "raw": "90"
+      },
+      "magnesio": {
+        "value": 19.9,
+        "qualifier": "=",
+        "raw": "19,9"
+      },
+      "sodio": {
+        "value": 15,
+        "qualifier": "=",
+        "raw": "15"
+      },
+      "potassio": {
+        "value": 2,
+        "qualifier": "=",
+        "raw": "2"
+      },
+      "bicarbonati": {
+        "value": 231,
+        "qualifier": "=",
+        "raw": "231"
+      },
+      "solfati": {
+        "value": 50,
+        "qualifier": "=",
+        "raw": "50"
+      },
+      "cloruri": {
+        "value": 34,
+        "qualifier": "=",
+        "raw": "34"
+      },
+      "nitrati": {
+        "value": 26,
+        "qualifier": "=",
+        "raw": "26"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 31,
+        "qualifier": "=",
+        "raw": "31"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Est",
+    "period": "2026-01"
+  },
+  {
+    "slug": "milano-15-2026-01",
+    "name": "Milano · Sud-Ovest · Gennaio 2026",
+    "source_name": "Sud-Ovest",
+    "source_type": "gestore",
+    "source_url": "https://dati.comune.milano.it/dataset/0a1e04d3-cbef-433f-9eed-58eb61dafb39",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte: MM / Comune di Milano, Open Data, CC BY 4.0. Periodo mensile; data del singolo campionamento non pubblicata. Nessuna media cittadina calcolata.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 376,
+        "qualifier": "=",
+        "raw": "376"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.4,
+        "qualifier": "=",
+        "raw": "7,4"
+      },
+      "conducibilita": {
+        "value": 525,
+        "qualifier": "=",
+        "raw": "525"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 83,
+        "qualifier": "=",
+        "raw": "83"
+      },
+      "magnesio": {
+        "value": 17.8,
+        "qualifier": "=",
+        "raw": "17,8"
+      },
+      "sodio": {
+        "value": 18,
+        "qualifier": "=",
+        "raw": "18"
+      },
+      "potassio": {
+        "value": 2,
+        "qualifier": "=",
+        "raw": "2"
+      },
+      "bicarbonati": {
+        "value": 204,
+        "qualifier": "=",
+        "raw": "204"
+      },
+      "solfati": {
+        "value": 47,
+        "qualifier": "=",
+        "raw": "47"
+      },
+      "cloruri": {
+        "value": 32,
+        "qualifier": "=",
+        "raw": "32"
+      },
+      "nitrati": {
+        "value": 29,
+        "qualifier": "=",
+        "raw": "29"
+      },
+      "nitriti": {
+        "value": 0.05,
+        "qualifier": "<",
+        "raw": "<0,05"
+      },
+      "fluoruri": {
+        "value": 0.15,
+        "qualifier": "<",
+        "raw": "<0,15"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 28,
+        "qualifier": "=",
+        "raw": "28"
+      }
+    },
+    "claims": [],
+    "warnings": [],
+    "ion_balance": null,
+    "zone": "Sud-Ovest",
+    "period": "2026-01"
+  }
+]

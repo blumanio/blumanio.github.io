@@ -1,0 +1,6 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {LabelExplainer} from '../components/Interactive';
+import {href} from '../lib';
+---
+<Layout title="Leggere l’etichetta"><p class="eyebrow">Quattro punti da osservare</p><h1>Prima il documento.<br/>Poi i numeri.</h1><p>Questa è una mappa di lettura, senza un’etichetta inventata. Seleziona un elemento per esplorarlo.</p><LabelExplainer client:load/><p style="margin-top:32px"><a href={href('acque/')}>Torna alle composizioni →</a></p></Layout>

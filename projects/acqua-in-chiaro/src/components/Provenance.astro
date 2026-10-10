@@ -1,0 +1,6 @@
+---
+import type {Water} from '../data/schema';
+import {href} from '../lib';
+const {water:w}=Astro.props as {water:Water};
+---
+<section class="panel provenance" id="provenienza" aria-label="Provenienza dei dati"><p class="eyebrow">ProvenanceBox · fonte verificabile</p><h2>Da dove vengono questi numeri</h2><dl><dt>Tipo di fonte</dt><dd>{w.source_type==='gestore'?'Gestore · MM / Comune di Milano':w.source_type==='etichetta'?'Etichetta':'Sito del produttore'}</dd><dt>Documento</dt><dd><a href={w.source_url} rel="noopener noreferrer">Apri la fonte originale ↗</a></dd><dt>Analisi</dt><dd>{w.period?`${w.period} · periodo mensile, giorno non dichiarato`:w.analysis_date||'Data non dichiarata nella fonte'}</dd><dt>Consultazione</dt><dd>{w.accessed_on}</dd><dt>Inserimento</dt><dd>{w.entered_on}</dd><dt>Bilancio ionico</dt><dd>{w.ion_balance===null?'Non calcolato: dati incompleti o censurati':`${w.ion_balance.toFixed(2)}% · 8 ioni principali`}</dd></dl><p class="small">{w.notes}</p>{w.warnings.map(x=><p class="warning small">{x}</p>)}<p class="small">I valori della tabella fanno riferimento a questo documento. Una data assente resta sconosciuta; la data di accesso non la sostituisce.</p><a href={href('segnala/?acqua='+encodeURIComponent(w.slug))}>Segnala un dato o aggiungi una foto dell’etichetta →</a></section>

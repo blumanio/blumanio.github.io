@@ -1,0 +1,33 @@
+# TEMPLATE ONLY. GitHub discovers workflows only in the repository root
+# .github/workflows/. Installing this file requires owner authorization because
+# it is outside projects/acqua-in-chiaro/. It is NOT an active CI gate yet.
+name: Acqua validation and QA
+on:
+  push:
+    paths: ['projects/acqua-in-chiaro/**']
+  pull_request:
+    paths: ['projects/acqua-in-chiaro/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/acqua-in-chiaro
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: projects/acqua-in-chiaro/package-lock.json
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run qa
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: acqua-qa
+          path: projects/acqua-in-chiaro/qa-results/

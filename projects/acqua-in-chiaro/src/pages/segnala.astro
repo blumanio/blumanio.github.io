@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {ReportLinks} from '../components/Interactive';
+---
+<Layout title="Segnala un dato"><article class="reading"><p class="eyebrow">Il taccuino si corregge insieme</p><h1>Hai trovato<br/>una differenza?</h1><p>Indica acqua, parametro, valore e fonte. Una fotografia leggibile dell’intera etichetta aiuta a distinguere sorgente, confezione e data dell’analisi.</p><ReportLinks client:load/><p class="small muted" style="margin-top:24px">GitHub prepara una issue pubblica: controlla il testo prima di inviarla. L’email apre una bozza senza destinatario, ancora da indicare. Nessun messaggio parte automaticamente.</p><p>Evita informazioni personali o mediche. Puoi limitarti al prodotto e al dato da verificare.</p></article></Layout>

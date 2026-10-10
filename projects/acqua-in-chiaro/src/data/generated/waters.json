@@ -1,0 +1,1347 @@
+[
+  {
+    "slug": "santanna-rebruant",
+    "name": "Sant’Anna · Rebruant",
+    "source_name": "Rebruant – Vinadio",
+    "source_type": "produttore",
+    "source_url": "https://shop.santanna.it/naturale-2-litri.html",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "2024-06-28",
+    "entered_on": "2026-10-10",
+    "notes": "Naturale 2 L. Conducibilità a 20 °C. Analisi Università di Torino DIP. BMSS.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 22.4,
+        "qualifier": "=",
+        "raw": "22.4"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 6.9,
+        "qualifier": "=",
+        "raw": "6.9"
+      },
+      "conducibilita": {
+        "value": 25.1,
+        "qualifier": "=",
+        "raw": "25.1"
+      },
+      "temperatura": {
+        "value": 6.4,
+        "qualifier": "=",
+        "raw": "6.4"
+      },
+      "co2_libera": {
+        "value": 3.2,
+        "qualifier": "=",
+        "raw": "3.2"
+      },
+      "calcio": {
+        "value": 3.3,
+        "qualifier": "=",
+        "raw": "3.3"
+      },
+      "magnesio": null,
+      "sodio": {
+        "value": 1.5,
+        "qualifier": "=",
+        "raw": "1.5"
+      },
+      "potassio": null,
+      "bicarbonati": {
+        "value": 12.5,
+        "qualifier": "=",
+        "raw": "12.5"
+      },
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": {
+        "value": 0.89,
+        "qualifier": "=",
+        "raw": "0.89"
+      },
+      "nitriti": null,
+      "fluoruri": {
+        "value": 0.1,
+        "qualifier": "<",
+        "raw": "<0.10"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      }
+    },
+    "claims": [],
+    "warnings": [
+      "Analisi oltre 18 mesi",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "levissima",
+    "name": "Levissima",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://www.levissima.it/prodotti/le-naturali/bottiglia-1-5-litri/",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "2023-09-04",
+    "entered_on": "2026-10-10",
+    "notes": "Naturale 1,5 L. Conducibilità a 20 °C. Analisi Università di Pavia.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 88.3,
+        "qualifier": "=",
+        "raw": "88.3"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 7.9,
+        "qualifier": "=",
+        "raw": "7.9"
+      },
+      "conducibilita": {
+        "value": 135,
+        "qualifier": "=",
+        "raw": "135"
+      },
+      "temperatura": {
+        "value": 6,
+        "qualifier": "=",
+        "raw": "6"
+      },
+      "co2_libera": {
+        "value": 2.4,
+        "qualifier": "=",
+        "raw": "2.4"
+      },
+      "calcio": {
+        "value": 23.1,
+        "qualifier": "=",
+        "raw": "23.1"
+      },
+      "magnesio": {
+        "value": 1.8,
+        "qualifier": "=",
+        "raw": "1.8"
+      },
+      "sodio": {
+        "value": 2.1,
+        "qualifier": "=",
+        "raw": "2.1"
+      },
+      "potassio": {
+        "value": 1.8,
+        "qualifier": "=",
+        "raw": "1.8"
+      },
+      "bicarbonati": {
+        "value": 57.9,
+        "qualifier": "=",
+        "raw": "57.9"
+      },
+      "solfati": {
+        "value": 22.9,
+        "qualifier": "=",
+        "raw": "22.9"
+      },
+      "cloruri": null,
+      "nitrati": {
+        "value": 1.4,
+        "qualifier": "=",
+        "raw": "1.4"
+      },
+      "nitriti": {
+        "value": 0.002,
+        "qualifier": "<",
+        "raw": "<0.002"
+      },
+      "fluoruri": {
+        "value": 0.2,
+        "qualifier": "=",
+        "raw": "0.2"
+      },
+      "silice": {
+        "value": 5.9,
+        "qualifier": "=",
+        "raw": "5.9"
+      },
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 6.5,
+        "qualifier": "=",
+        "raw": "6.5"
+      }
+    },
+    "claims": [],
+    "warnings": [
+      "Analisi oltre 18 mesi",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "acqua-panna",
+    "name": "Acqua Panna",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://www.acquapanna.com/it/bottiglia-di-vetro-75-cl",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Analisi tipica, data non dichiarata nella fonte. Vetro 75 cl.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 142,
+        "qualifier": "=",
+        "raw": "142"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 8,
+        "qualifier": "=",
+        "raw": "8"
+      },
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 32.2,
+        "qualifier": "=",
+        "raw": "32.2"
+      },
+      "magnesio": {
+        "value": 6.7,
+        "qualifier": "=",
+        "raw": "6.7"
+      },
+      "sodio": {
+        "value": 7,
+        "qualifier": "=",
+        "raw": "7"
+      },
+      "potassio": {
+        "value": 0.9,
+        "qualifier": "=",
+        "raw": "0.9"
+      },
+      "bicarbonati": {
+        "value": 107,
+        "qualifier": "=",
+        "raw": "107"
+      },
+      "solfati": {
+        "value": 23,
+        "qualifier": "=",
+        "raw": "23"
+      },
+      "cloruri": {
+        "value": 8.2,
+        "qualifier": "=",
+        "raw": "8.2"
+      },
+      "nitrati": {
+        "value": 2.4,
+        "qualifier": "=",
+        "raw": "2.4"
+      },
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": {
+        "value": 7.1,
+        "qualifier": "=",
+        "raw": "7.1"
+      },
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata"
+    ],
+    "ion_balance": -0.3365210532374028
+  },
+  {
+    "slug": "lete",
+    "name": "Lete",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://acqualete.it/caratteristiche/",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Effervescente naturale. Solo i due valori della pagina consultata; analisi completa da acquisire.",
+    "composition": {
+      "residuo_fisso_180": null,
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": null,
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 302,
+        "qualifier": "=",
+        "raw": "302"
+      },
+      "magnesio": null,
+      "sodio": {
+        "value": 5.3,
+        "qualifier": "=",
+        "raw": "5.3"
+      },
+      "potassio": null,
+      "bicarbonati": null,
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": null,
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "ferrarelle",
+    "name": "Ferrarelle · analisi storica",
+    "source_name": "Riardo",
+    "source_type": "produttore",
+    "source_url": "https://www.ferrarelle.it/assets/pdf/epd_18-11-2020_ferrarelle_ita_web.pdf",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "2018-04-23",
+    "entered_on": "2026-10-10",
+    "notes": "DATO STORICO. EPD 2020, p. 7 (PDF p. 7); documento scaduto, usato esclusivamente come archivio dell’analisi. Non descrive un lotto attuale. Conducibilità a 20 °C. Università Federico II.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 1350,
+        "qualifier": "=",
+        "raw": "1350"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 6.2,
+        "qualifier": "=",
+        "raw": "6.2"
+      },
+      "conducibilita": {
+        "value": 1820,
+        "qualifier": "=",
+        "raw": "1820"
+      },
+      "temperatura": null,
+      "co2_libera": {
+        "value": 2600,
+        "qualifier": "=",
+        "raw": "2600"
+      },
+      "calcio": {
+        "value": 400,
+        "qualifier": "=",
+        "raw": "400"
+      },
+      "magnesio": {
+        "value": 25,
+        "qualifier": "=",
+        "raw": "25"
+      },
+      "sodio": {
+        "value": 50,
+        "qualifier": "=",
+        "raw": "50"
+      },
+      "potassio": {
+        "value": 49,
+        "qualifier": "=",
+        "raw": "49"
+      },
+      "bicarbonati": {
+        "value": 1500,
+        "qualifier": "=",
+        "raw": "1500"
+      },
+      "solfati": {
+        "value": 4.8,
+        "qualifier": "=",
+        "raw": "4.8"
+      },
+      "cloruri": {
+        "value": 16,
+        "qualifier": "=",
+        "raw": "16"
+      },
+      "nitrati": {
+        "value": 3.5,
+        "qualifier": "=",
+        "raw": "3.5"
+      },
+      "nitriti": null,
+      "fluoruri": {
+        "value": 1.1,
+        "qualifier": "=",
+        "raw": "1.1"
+      },
+      "silice": {
+        "value": 84,
+        "qualifier": "=",
+        "raw": "84"
+      },
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Analisi storica: oltre cinque anni"
+    ],
+    "ion_balance": 0.504201516588671
+  },
+  {
+    "slug": "lauretana",
+    "name": "Lauretana",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://www.lauretana.com/acqua_caratteristiche.php",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Scheda parziale: solo residuo fisso verificato.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 14,
+        "qualifier": "=",
+        "raw": "14"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": null,
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": null,
+      "magnesio": null,
+      "sodio": null,
+      "potassio": null,
+      "bicarbonati": null,
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": null,
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "alpe-guizza-caudana",
+    "name": "Alpe Guizza · Caudana",
+    "source_name": "Caudana",
+    "source_type": "produttore",
+    "source_url": "https://www.sanbenedetto.it/it/prodotto/acqua-minerale-guizza?f=hub",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Sezione Fonte Caudana. Scheda parziale; confezione non identificata. Temperatura del residuo non dichiarata nel passaggio consultato: escluso dai filtri a 180 °C.",
+    "composition": {
+      "residuo_fisso_180": null,
+      "residuo_temperatura_non_dichiarata": {
+        "value": 88.2,
+        "qualifier": "=",
+        "raw": "88.2"
+      },
+      "tds": null,
+      "ph": null,
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": null,
+      "magnesio": null,
+      "sodio": null,
+      "potassio": null,
+      "bicarbonati": null,
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": null,
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "rocchetta",
+    "name": "Rocchetta",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://www.rocchetta.it/acqua-minerale-naturale-rocchetta/",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Solo i valori numerici verificati nella pagina del produttore. Temperatura del residuo non dichiarata nel passaggio consultato: escluso dai filtri a 180 °C.",
+    "composition": {
+      "residuo_fisso_180": null,
+      "residuo_temperatura_non_dichiarata": {
+        "value": 175.9,
+        "qualifier": "=",
+        "raw": "175.9"
+      },
+      "tds": null,
+      "ph": null,
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": null,
+      "magnesio": null,
+      "sodio": {
+        "value": 4.24,
+        "qualifier": "=",
+        "raw": "4.24"
+      },
+      "potassio": null,
+      "bicarbonati": null,
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": null,
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "uliveto",
+    "name": "Uliveto",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://www.uliveto.it/acqua/",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Effervescente naturale. Università di Camerino; data non riportata. Conducibilità a 20 °C. CO₂ non importata perché la dicitura non specifica libera.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 729,
+        "qualifier": "=",
+        "raw": "729"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 5.7,
+        "qualifier": "=",
+        "raw": "5.7"
+      },
+      "conducibilita": {
+        "value": 1122,
+        "qualifier": "=",
+        "raw": "1122"
+      },
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 171,
+        "qualifier": "=",
+        "raw": "171"
+      },
+      "magnesio": {
+        "value": 26,
+        "qualifier": "=",
+        "raw": "26"
+      },
+      "sodio": {
+        "value": 64,
+        "qualifier": "=",
+        "raw": "64"
+      },
+      "potassio": {
+        "value": 7.3,
+        "qualifier": "=",
+        "raw": "7.3"
+      },
+      "bicarbonati": {
+        "value": 568,
+        "qualifier": "=",
+        "raw": "568"
+      },
+      "solfati": {
+        "value": 89,
+        "qualifier": "=",
+        "raw": "89"
+      },
+      "cloruri": {
+        "value": 76,
+        "qualifier": "=",
+        "raw": "76"
+      },
+      "nitrati": {
+        "value": 6.4,
+        "qualifier": "=",
+        "raw": "6.4"
+      },
+      "nitriti": null,
+      "fluoruri": {
+        "value": 0.9,
+        "qualifier": "=",
+        "raw": "0.9"
+      },
+      "silice": {
+        "value": 7.3,
+        "qualifier": "=",
+        "raw": "7.3"
+      },
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata"
+    ],
+    "ion_balance": 0.8670957232264344
+  },
+  {
+    "slug": "san-bernardo",
+    "name": "S.Bernardo · scheda parziale",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://www.sanbernardo.it/eventi/acqua-s-bernardo-celebra-cuneo-con-una-limited-edition-per-illuminata/",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Fonte editoriale storica del produttore relativa alla PET Premium Cuneo. Data dell’analisi assente. Da aggiornare con etichetta. Temperatura del residuo non dichiarata nel passaggio consultato: escluso dai filtri a 180 °C.",
+    "composition": {
+      "residuo_fisso_180": null,
+      "residuo_temperatura_non_dichiarata": {
+        "value": 34.5,
+        "qualifier": "=",
+        "raw": "34.5"
+      },
+      "tds": null,
+      "ph": {
+        "value": 7,
+        "qualifier": "=",
+        "raw": "7"
+      },
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": null,
+      "magnesio": null,
+      "sodio": null,
+      "potassio": null,
+      "bicarbonati": null,
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": {
+        "value": 1.4,
+        "qualifier": "=",
+        "raw": "1.4"
+      },
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "frasassi",
+    "name": "Frasassi",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://acquafrasassi.it/it/caratteristiche-acqua-minerale-frasassi",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Articolo del 17 febbraio 2023; questa data non è la data di analisi. Solfati non riportati.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 327.7,
+        "qualifier": "=",
+        "raw": "327.7"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": null,
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 97.2,
+        "qualifier": "=",
+        "raw": "97.2"
+      },
+      "magnesio": {
+        "value": 4.2,
+        "qualifier": "=",
+        "raw": "4.2"
+      },
+      "sodio": {
+        "value": 17.9,
+        "qualifier": "=",
+        "raw": "17.9"
+      },
+      "potassio": {
+        "value": 1.7,
+        "qualifier": "=",
+        "raw": "1.7"
+      },
+      "bicarbonati": {
+        "value": 312.3,
+        "qualifier": "=",
+        "raw": "312.3"
+      },
+      "solfati": null,
+      "cloruri": {
+        "value": 19.9,
+        "qualifier": "=",
+        "raw": "19.9"
+      },
+      "nitrati": {
+        "value": 2.3,
+        "qualifier": "=",
+        "raw": "2.3"
+      },
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": {
+        "value": 10.9,
+        "qualifier": "=",
+        "raw": "10.9"
+      },
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "sorgesana",
+    "name": "Sorgesana",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://www.acquasorgesana.it/lacqua/",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Sodio non importato: due valori diversi compaiono nella stessa pagina. In attesa di etichetta leggibile. Temperatura del residuo non dichiarata nel passaggio consultato: escluso dai filtri a 180 °C.",
+    "composition": {
+      "residuo_fisso_180": null,
+      "residuo_temperatura_non_dichiarata": {
+        "value": 252,
+        "qualifier": "=",
+        "raw": "252"
+      },
+      "tds": null,
+      "ph": null,
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": null,
+      "magnesio": null,
+      "sodio": null,
+      "potassio": null,
+      "bicarbonati": null,
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": null,
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "vera-in-bosco",
+    "name": "Acqua Vera · In Bosco",
+    "source_name": "In Bosco",
+    "source_type": "produttore",
+    "source_url": "https://www.acquavera.eu/wp-content/uploads/2025/05/AV_Bilancio-Sostenibilita-2024.pdf",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Bilancio 2024, p. 25 (PDF p. 16), tabella Family PET. TDS mantenuto separato dal residuo a 180 °C: temperatura non specificata. Data di analisi assente.",
+    "composition": {
+      "residuo_fisso_180": null,
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": {
+        "value": 162,
+        "qualifier": "=",
+        "raw": "162"
+      },
+      "ph": {
+        "value": 7.9,
+        "qualifier": "=",
+        "raw": "7.9"
+      },
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 35.8,
+        "qualifier": "=",
+        "raw": "35.8"
+      },
+      "magnesio": {
+        "value": 19.9,
+        "qualifier": "=",
+        "raw": "19.9"
+      },
+      "sodio": {
+        "value": 2.1,
+        "qualifier": "=",
+        "raw": "2.1"
+      },
+      "potassio": null,
+      "bicarbonati": {
+        "value": 146,
+        "qualifier": "=",
+        "raw": "146"
+      },
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": {
+        "value": 4.5,
+        "qualifier": "=",
+        "raw": "4.5"
+      },
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "vera-naturae",
+    "name": "Acqua Vera · Naturae",
+    "source_name": "Naturae",
+    "source_type": "produttore",
+    "source_url": "https://www.acquavera.eu/wp-content/uploads/2025/05/AV_Bilancio-Sostenibilita-2024.pdf",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Bilancio 2024, p. 25 (PDF p. 16), tabella Family PET. TDS mantenuto separato dal residuo a 180 °C: temperatura non specificata. Data di analisi assente.",
+    "composition": {
+      "residuo_fisso_180": null,
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": {
+        "value": 464,
+        "qualifier": "=",
+        "raw": "464"
+      },
+      "ph": {
+        "value": 7,
+        "qualifier": "=",
+        "raw": "7"
+      },
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 122,
+        "qualifier": "=",
+        "raw": "122"
+      },
+      "magnesio": {
+        "value": 29.1,
+        "qualifier": "=",
+        "raw": "29.1"
+      },
+      "sodio": {
+        "value": 4.3,
+        "qualifier": "=",
+        "raw": "4.3"
+      },
+      "potassio": null,
+      "bicarbonati": {
+        "value": 501,
+        "qualifier": "=",
+        "raw": "501"
+      },
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": {
+        "value": 1.9,
+        "qualifier": "=",
+        "raw": "1.9"
+      },
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "vera-santa-rosalia",
+    "name": "Acqua Vera · Santa Rosalia",
+    "source_name": "Santa Rosalia",
+    "source_type": "produttore",
+    "source_url": "https://www.acquavera.eu/wp-content/uploads/2025/05/AV_Bilancio-Sostenibilita-2024.pdf",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Bilancio 2024, p. 25 (PDF p. 16), tabella Family PET. TDS mantenuto separato dal residuo a 180 °C: temperatura non specificata. Data di analisi assente.",
+    "composition": {
+      "residuo_fisso_180": null,
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": {
+        "value": 269,
+        "qualifier": "=",
+        "raw": "269"
+      },
+      "ph": {
+        "value": 8.04,
+        "qualifier": "=",
+        "raw": "8.04"
+      },
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 60.8,
+        "qualifier": "=",
+        "raw": "60.8"
+      },
+      "magnesio": {
+        "value": 19.8,
+        "qualifier": "=",
+        "raw": "19.8"
+      },
+      "sodio": {
+        "value": 7.7,
+        "qualifier": "=",
+        "raw": "7.7"
+      },
+      "potassio": null,
+      "bicarbonati": {
+        "value": 260,
+        "qualifier": "=",
+        "raw": "260"
+      },
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": {
+        "value": 2.4,
+        "qualifier": "=",
+        "raw": "2.4"
+      },
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "plose",
+    "name": "Plose",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://acquaplose.com/proprieta/caratteristiche/",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Valori dalla tabella. Conducibilità omessa: temperatura indicata in modo ambiguo. Durezza tabella 1,3 °f; introduzione 1,1 °f: discrepanza da verificare.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 22,
+        "qualifier": "=",
+        "raw": "22"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": {
+        "value": 6.6,
+        "qualifier": "=",
+        "raw": "6.6"
+      },
+      "conducibilita": null,
+      "temperatura": {
+        "value": 5.7,
+        "qualifier": "=",
+        "raw": "5.7"
+      },
+      "co2_libera": null,
+      "calcio": {
+        "value": 2,
+        "qualifier": "=",
+        "raw": "2"
+      },
+      "magnesio": {
+        "value": 1.4,
+        "qualifier": "=",
+        "raw": "1.4"
+      },
+      "sodio": {
+        "value": 1.3,
+        "qualifier": "=",
+        "raw": "1.3"
+      },
+      "potassio": {
+        "value": 0.2,
+        "qualifier": "<",
+        "raw": "<0.2"
+      },
+      "bicarbonati": {
+        "value": 14,
+        "qualifier": "=",
+        "raw": "14"
+      },
+      "solfati": {
+        "value": 3.4,
+        "qualifier": "=",
+        "raw": "3.4"
+      },
+      "cloruri": {
+        "value": 0.4,
+        "qualifier": "<",
+        "raw": "<0.4"
+      },
+      "nitrati": {
+        "value": 1,
+        "qualifier": "=",
+        "raw": "1"
+      },
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": {
+        "value": 5.8,
+        "qualifier": "=",
+        "raw": "5.8"
+      },
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": {
+        "value": 1.3,
+        "qualifier": "=",
+        "raw": "1.3"
+      }
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "eva-rocce-azzurre",
+    "name": "Eva · Rocce Azzurre",
+    "source_name": "Rocce Azzurre",
+    "source_type": "produttore",
+    "source_url": "https://acquaeva.it/leggera/",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "2019-09-27",
+    "entered_on": "2026-10-10",
+    "notes": "DATO STORICO. Solo residuo fisso verificato.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 45,
+        "qualifier": "=",
+        "raw": "45"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": null,
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": null,
+      "magnesio": null,
+      "sodio": null,
+      "potassio": null,
+      "bicarbonati": null,
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": null,
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Analisi storica: oltre cinque anni",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "santa-croce",
+    "name": "Santa Croce",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://www.acquasantacroce.it/index.php",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Scheda parziale; analisi completa da acquisire. Temperatura del residuo non dichiarata nel passaggio consultato: escluso dai filtri a 180 °C.",
+    "composition": {
+      "residuo_fisso_180": null,
+      "residuo_temperatura_non_dichiarata": {
+        "value": 177,
+        "qualifier": "=",
+        "raw": "177"
+      },
+      "tds": null,
+      "ph": null,
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": null,
+      "magnesio": null,
+      "sodio": null,
+      "potassio": null,
+      "bicarbonati": null,
+      "solfati": null,
+      "cloruri": null,
+      "nitrati": {
+        "value": 0.5,
+        "qualifier": "=",
+        "raw": "0.5"
+      },
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "vitasnella",
+    "name": "Vitasnella",
+    "source_name": "",
+    "source_type": "produttore",
+    "source_url": "https://www.acquavitasnella.it/la-naturale/",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Tabella dedicata a Vitasnella. Esclusi tutti i dati sulle altre marche presenti nella pagina.",
+    "composition": {
+      "residuo_fisso_180": {
+        "value": 422,
+        "qualifier": "=",
+        "raw": "422"
+      },
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": null,
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 96,
+        "qualifier": "=",
+        "raw": "96"
+      },
+      "magnesio": {
+        "value": 29,
+        "qualifier": "=",
+        "raw": "29"
+      },
+      "sodio": {
+        "value": 3.5,
+        "qualifier": "=",
+        "raw": "3.5"
+      },
+      "potassio": {
+        "value": 1.2,
+        "qualifier": "=",
+        "raw": "1.2"
+      },
+      "bicarbonati": {
+        "value": 313,
+        "qualifier": "=",
+        "raw": "313"
+      },
+      "solfati": {
+        "value": 106,
+        "qualifier": "=",
+        "raw": "106"
+      },
+      "cloruri": null,
+      "nitrati": {
+        "value": 2.9,
+        "qualifier": "=",
+        "raw": "2.9"
+      },
+      "nitriti": null,
+      "fluoruri": {
+        "value": 0.4,
+        "qualifier": "=",
+        "raw": "0.4"
+      },
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  },
+  {
+    "slug": "fonte-essenziale",
+    "name": "Fonte Essenziale",
+    "source_name": "Antica Fonte – Boario",
+    "source_type": "produttore",
+    "source_url": "https://www.fonteessenziale.it/acqua/",
+    "accessed_on": "2026-10-10",
+    "analysis_date": "",
+    "entered_on": "2026-10-10",
+    "notes": "Solo composizione numerica; diciture salutistiche non importate.",
+    "composition": {
+      "residuo_fisso_180": null,
+      "residuo_temperatura_non_dichiarata": null,
+      "tds": null,
+      "ph": null,
+      "conducibilita": null,
+      "temperatura": null,
+      "co2_libera": null,
+      "calcio": {
+        "value": 593,
+        "qualifier": "=",
+        "raw": "593"
+      },
+      "magnesio": {
+        "value": 102,
+        "qualifier": "=",
+        "raw": "102"
+      },
+      "sodio": {
+        "value": 14,
+        "qualifier": "=",
+        "raw": "14"
+      },
+      "potassio": null,
+      "bicarbonati": null,
+      "solfati": {
+        "value": 1603,
+        "qualifier": "=",
+        "raw": "1603"
+      },
+      "cloruri": null,
+      "nitrati": null,
+      "nitriti": null,
+      "fluoruri": null,
+      "silice": null,
+      "ferro": null,
+      "ferro_bivalente": null,
+      "durezza": null
+    },
+    "claims": [],
+    "warnings": [
+      "Data di analisi non dichiarata",
+      "Scheda parziale: meno di otto parametri",
+      "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+    ],
+    "ion_balance": null
+  }
+]

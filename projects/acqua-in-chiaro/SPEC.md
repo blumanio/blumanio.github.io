@@ -10,6 +10,10 @@ Work in the phases of section 14. At each **Checkpoint**, stop, summarise what y
 
 ---
 
+## Launch instruction override — owner decision, 2026-10-10
+
+The latest owner request supersedes intermediate checkpoint stops and the initial 50-water launch target: complete and publish autonomously with at least 20 producer-sourced records, preserving missing values. Taccuino di campo is selected with the five approved changes (situations row, chemistry descriptors, visible Milano strip, compact responsive comparison table, self-hosted Source Sans 3 / Source Code Pro with tabular figures). Unsourced clinical/legal content ships as In revisione; geology author text remains a placeholder. Browser QA fallback is a runnable local script with unexecuted checks reported honestly. Changes outside projects/acqua-in-chiaro remain unauthorized without a specific stop/approval. This overrides old checkpoint and dependency-approval language below.
+
 ## 1. Product
 
 ### 1.1 One-sentence purpose

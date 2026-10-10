@@ -1,32 +1,60 @@
 # Acqua in chiaro
 
-**Checkpoint 2: corrected specification, source review and two design proposals.** The operational catalogue is not built yet.
+Public Italian water-composition notebook, by Mohamed El Aammari.
 
-[Project overview](https://blumanio.github.io/projects/acqua-in-chiaro/) · [Rendered design options](https://blumanio.github.io/projects/acqua-in-chiaro/docs/design-options.html) · [Checkpoint and open items](docs/checkpoint-2.md)
+**Live:** https://blumanio.github.io/projects/acqua-in-chiaro/
 
-A neutral Italian-language composition comparison project by Mohamed El Aammari, environmental geologist and React developer, as described in the supplied brief. Planned stack: Astro + React islands + strict TypeScript + Tailwind. Existing hosting stays on GitHub Pages; no custom domain.
+Astro static, React islands, strict TypeScript, Tailwind tokens and zod. Source Sans 3 / Source Code Pro are self-hosted, with their OFL licenses. No analytics, cookies or third-party asset requests. Links to sources open only when followed.
 
-## Approved scope
+## Run and build
 
-- Compare sourced composition values, dates and units for up to three waters, with a Milano zone/month option.
-- Six neutral entry points: sodium <20, calcium >150, sulfate >200, magnesium >50, nitrate ≤10 mg/L, and numeric fixed-residue classes.
-- Regulatory/health mentions only as documented label/decree transcriptions, with `claim_source` and decree reference where available. Never infer infant suitability or low-sodium-diet wording from chemistry.
-- Separate total/unspecified iron from `ferro_bivalente`. Only declared Fe(II)>1 mg/L can produce the explicitly computed ferruginosa composition descriptor; it is not a printed claim.
-- Nine evidence guides, all guide-only. No clinical recommendation engine, automatic health filters or suitability verdicts.
-- Catalogue target: at least 50 waters seeded from official producer records, then progressively confirmed/replaced with owner label photographs. Missing values stay missing.
+Node ≥22.18; npm.
 
-## Review materials
+```sh
+cd projects/acqua-in-chiaro
+npm ci
+npm run dev
+```
 
-- [Revised specification](SPEC.md), particularly §4, §5.3, §8.2–8.3 and §9.
-- [Threshold register](src/rules/thresholds.ts) and [checkpoint 1](docs/checkpoint-1.md). Checkpoint 2 policy supersedes earlier claim-display assumptions.
-- [Milano source and import contract](docs/milano-source.md).
-- [References, abstract checks and outstanding items](docs/references.md).
-- [All-page wireframes, edge states and design rationale](docs/wireframes.md).
+Open the URL printed by Astro, including `/projects/acqua-in-chiaro/`.
 
-Choose Taccuino di campo (recommended for mobile discovery) or Atlante dei dati (denser comparison-first layout). The preview has local filter selection and a clearly labelled synthetic table, not real catalogue results. The next checkpoint covers schema validation, a candidate list of 50 waters and five source-backed seed records.
+```sh
+npm run build
+npm run preview
+```
 
-No health copy, legal pages, production dataset, performance scores or complete app are claimed at this stage. Remaining research and preview-verification limitations are listed in the checkpoint report. No project dependencies were added.
+Build validates CSV, generates JSON, runs unit tests, checks strict TypeScript, renders 43 pages and checks generated content, metadata and local links. Any validation error makes the command fail. Warnings (missing dates, partial/historical analyses, incomplete ion panels) remain visible. `.build/` is disposable output.
 
-## Roadmap outside v1
+## Browser QA (one command after installation)
 
-Prices, additional cities, Piper/Schoeller diagrams, contaminant datasets, accounts, reviews, English version and native app.
+```sh
+npx playwright install chromium
+npm run qa
+```
+
+`qa` rebuilds, starts a local preview, tests mobile flows A–C and Milano, checks third-party requests and console errors, runs axe, produces 36 screenshots at 360/768/1280 in light/dark, and runs Lighthouse on four routes. It exits nonzero on failure. Manually inspect screenshots before treating visual QA as passed. Evidence is saved under `qa-results/`. See LAUNCH.md for checks actually executed in the build environment; scripts existing does not mean they passed.
+
+## Deploy without changing the rest of the portfolio
+
+```sh
+npm run build
+node scripts/stage-release.mjs
+```
+
+Commit source and staged static output **only in this project directory**, excluding node_modules, .build and local QA artifacts. The repository's existing GitHub Pages “pages build and deployment” Action publishes branch `master`. Generated assets use `assets-app` (not an underscore-prefixed directory), for compatibility with the existing Jekyll-based Pages pipeline. No CNAME or custom domain.
+
+`docs/workflows/acqua-ci.yml` is a **not-installed CI template**. A true GitHub validation gate needs it under repository-root `.github/workflows/` plus branch rules; that change is outside the owner's authorized folder. Existing Pages deployment does not run this project's validator. Validation was run before this release; do not confuse it with an active CI gate.
+
+Nested `404.html` can be visited directly. GitHub Pages chooses the repository-root 404 for unknown URLs; changing that behavior also requires an outside-folder change.
+
+## Data and contribution
+
+- `data/waters.csv`: editable producer/label records; one source and analysis per row.
+- `data/claims.json`: documented label/decree claims only, initially empty.
+- `data/milano-2026.raw.json`: official MM / Comune snapshot, CC BY 4.0.
+- `src/data/generated/`: reproducible JSON and validation report.
+- `CONTRIBUTING-DATA.md`: add a label in under ten minutes.
+- `METHODOLOGY.md`, `CHANGELOG.md`, `LAUNCH.md`: methods and actual release status.
+- `docs/candidates.csv`: 50 candidates; inclusion is not a market-share or distribution ranking.
+
+No scores, health profiles or verdict component. Missing values are null, not zero. Fe(II) has its own field. Producer marketing claims are not imported as documented label claims.

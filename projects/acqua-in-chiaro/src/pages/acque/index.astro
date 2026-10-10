@@ -1,0 +1,6 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import {Catalogue} from '../../components/Interactive';
+import {waters,href} from '../../lib';
+---
+<Layout title="Le acque"><p class="eyebrow">Taccuino · 20 schede</p><h1>Trova un’acqua.<br/>Leggi la composizione.</h1><p>Filtri numerici sui valori dichiarati. Nessuna classifica. Le schede parziali sono incluse e i dati mancanti restano visibili.</p><Catalogue client:load/><noscript><p class="noscript">Ricerca, filtri e confronto richiedono JavaScript. Tutte le schede sono disponibili qui:</p><ul>{waters.map(w=><li><a href={href('acque/'+w.slug+'/')}>{w.name}</a></li>)}</ul></noscript></Layout>

@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {articles} from '../data/articles';
+import {href} from '../lib';
+export function getStaticPaths(){return articles.map(article=>({params:{page:article.slug},props:{article}}));}
+const {article:a}=Astro.props;
+---
+<Layout title={a.title}><article class="reading"><p class="eyebrow">Acqua in chiaro / Taccuino aperto</p><h1>{a.title}</h1><p>{a.intro}</p>{a.sections.map(([heading,text])=><section><h2>{heading}</h2><p>{text}</p></section>)}{a.slug==='chi-sono'&&<p><a href="https://blumanio.github.io/">Visita il mio portfolio →</a></p>}<a href={href('acque/')}>Esplora il catalogo →</a></article></Layout>

@@ -1,0 +1,7 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import {Milano} from '../../components/Interactive';
+import {milano} from '../../lib';
+import {FIELDS,format,type Field} from '../../data/schema';
+---
+<Layout title="Acqua di Milano · zona e periodo"><p class="eyebrow">Il rubinetto nel taccuino</p><h1>Milano, zona per zona.</h1><p>Consulta le misure pubblicate da MM e dal Comune di Milano. La zona e il periodo contano: qui non calcoliamo una media cittadina.</p><p class="warning">Archivio 2026: gennaio, febbraio, marzo, aprile, giugno e luglio. Maggio e i mesi successivi a luglio non sono presenti nel file consultato il 10 ottobre 2026.</p><Milano client:load/><noscript>{milano.map(w=><details><summary>{w.name}</summary><ul>{Object.entries(FIELDS).filter(([k])=>w.composition[k as Field]).map(([k,v])=><li>{v[0]}: {format(w.composition[k as Field])} {v[1]}</li>)}</ul><a href={w.source_url}>Fonte ufficiale</a></details>)}</noscript></Layout>

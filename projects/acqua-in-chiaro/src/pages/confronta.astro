@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {Compare} from '../components/Interactive';
+---
+<Layout title="Confronta senza classifiche"><p class="eyebrow">Valori affiancati · fonti visibili</p><h1>Confronta.<br/>Senza classifiche.</h1><Compare client:load/><noscript><p class="noscript">Il confronto interattivo richiede JavaScript. Le composizioni restano disponibili nelle singole schede.</p></noscript></Layout>

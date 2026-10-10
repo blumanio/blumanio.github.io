@@ -1,0 +1,15 @@
+# Add an official label in under ten minutes
+
+Prerequisite: a readable full-label photo, permission to publish that photo, and a working local install. The ten-minute target is for transcription of one straightforward label, not verification of a complex health claim.
+
+1. **0–2 minutes:** save the uncropped photo under `public/labels/<slug>-YYYY-MM-DD.jpg`. Keep source name, product variant, date and laboratory visible. Strip personal/location EXIF before committing. Record the future public photo URL: `https://blumanio.github.io/projects/acqua-in-chiaro/labels/...`.
+2. **2–6 minutes:** add one row to `data/waters.csv` using a spreadsheet or CSV editor. Preserve all column headers. Copy a row's format, never its measurements. Use a unique lowercase hyphenated `slug`; set `name`, `source_name`, `source_type=etichetta`, `source_url`, `accessed_on`, `entered_on`. Dates use YYYY-MM-DD. Leave `analysis_date` empty if the label does not show it.
+3. Copy only declared values. Numeric columns: `residuo_fisso_180, residuo_temperatura_non_dichiarata, tds, ph, conducibilita, temperatura, co2_libera, calcio, magnesio, sodio, potassio, bicarbonati, solfati, cloruri, nitrati, nitriti, fluoruri, silice, ferro, ferro_bivalente, durezza`. Units are fixed in `src/data/schema.ts`: concentrations mg/L, conductivity µS/cm **at 20 °C**, temperature °C, hardness °f, pH unitless. Other temperatures or units need an explicit schema change; do not silently convert or guess.
+4. Keep `<0.10` as `<0.10`, not zero. Blank means missing. Do not enter “ND” as a numerical value. Use `notes` to preserve an unquantified “not detected”. TDS with no declared temperature goes in `tds`, not `residuo_fisso_180`. Total/unspecified iron goes in `ferro`; only explicitly ferrous/bivalent iron goes in `ferro_bivalente`.
+5. **6–8 minutes:** optional claims belong in `data/claims.json`, with exact transcription, `water_slug`, `claim_source: etichetta | decreto`, source URL and `decree_reference` (required for a decree, otherwise null if absent). Never derive a claim from chemistry. Leave uncertain claims out and log the reason. The initial dataset intentionally has zero claims.
+6. **8–10 minutes:** run `npm run build`. Read `src/data/generated/report.json`; fix errors by checking the document. Do not adjust a measured value merely to improve ion balance. For an incomplete panel, the balance stays null. Review the rendered detail page.
+7. Run `npm run qa` before release. Then `node scripts/stage-release.mjs` and commit only this project directory. The existing Pages Action deploys the static output.
+
+To replace producer data, replace the complete record with the label's coherent analysis. Do not mix different sources/dates within one row. Keep the old record in git history. Add a changelog entry with old/new dates and reason.
+
+Milano: refresh only from the official dataset linked in `docs/milano-source.md`; preserve zones and periods. The importer expects the current 24 groups as an intentional change detector. Review and update that assertion when the publisher adds months. Do not fabricate a missing May or a city average.

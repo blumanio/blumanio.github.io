@@ -1,0 +1,6 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import {guides} from '../../data/guides';
+import {href} from '../../lib';
+---
+<Layout title="Guide alle situazioni"><p class="eyebrow">Leggere le prove, con i loro limiti</p><h1>Una domanda.<br/>Prima, il contesto.</h1><p>Guide di lettura delle fonti. Ogni collegamento al catalogo apre un filtro di composizione, senza attribuire un’indicazione medica alle acque.</p><div class="grid">{guides.map(g=><article class="card"><span class="guide-badge">{g.pending?'In revisione':g.level}</span><h2><a href={href('profili/'+g.slug+'/')}>{g.title}</a></h2><p class="small">{g.pending?'Sintesi non ancora disponibile.':'Sintesi delle fonti verificate e limiti degli studi.'}</p></article>)}</div></Layout>

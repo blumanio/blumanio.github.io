@@ -1,0 +1,160 @@
+{
+  "as_of": "2026-10-10",
+  "water_count": 20,
+  "composition_fields": 21,
+  "empty_composition_fields": 286,
+  "milano_groups": 24,
+  "milano_raw_rows": 432,
+  "warnings": [
+    {
+      "slug": "santanna-rebruant",
+      "warnings": [
+        "Analisi oltre 18 mesi",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "levissima",
+      "warnings": [
+        "Analisi oltre 18 mesi",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "acqua-panna",
+      "warnings": [
+        "Data di analisi non dichiarata"
+      ]
+    },
+    {
+      "slug": "lete",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "ferrarelle",
+      "warnings": [
+        "Analisi storica: oltre cinque anni"
+      ]
+    },
+    {
+      "slug": "lauretana",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "alpe-guizza-caudana",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "rocchetta",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "uliveto",
+      "warnings": [
+        "Data di analisi non dichiarata"
+      ]
+    },
+    {
+      "slug": "san-bernardo",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "frasassi",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "sorgesana",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "vera-in-bosco",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "vera-naturae",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "vera-santa-rosalia",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "plose",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "eva-rocce-azzurre",
+      "warnings": [
+        "Analisi storica: oltre cinque anni",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "santa-croce",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "vitasnella",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    },
+    {
+      "slug": "fonte-essenziale",
+      "warnings": [
+        "Data di analisi non dichiarata",
+        "Scheda parziale: meno di otto parametri",
+        "Bilancio ionico non calcolabile: pannello incompleto o valori censurati"
+      ]
+    }
+  ],
+  "errors": []
+}

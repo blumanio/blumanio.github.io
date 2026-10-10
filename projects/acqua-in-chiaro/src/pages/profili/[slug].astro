@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import {guides} from '../../data/guides';
+import {FILTERS} from '../../rules/chemistry';
+import {href} from '../../lib';
+export function getStaticPaths(){return guides.map(g=>({params:{slug:g.slug},props:{guide:g}}));}
+const {guide:g}=Astro.props;
+const filter=FILTERS.find(f=>f.id===g.filter)!;
+---
+<Layout title={g.title+' · guida'}><div class="breadcrumbs"><a href={href('profili/')}>Guide</a> / {g.title}</div><article class="reading"><p class="eyebrow">Guida alle fonti</p><h1>{g.title}</h1><span class="guide-badge">{g.pending?'In revisione':`Livello delle prove: ${g.level}`}</span><h2>{g.pending?'Sintesi in revisione':'Che cosa è stato studiato'}</h2><p>{g.text}</p>{!g.pending&&<p class="small muted">Sintesi editoriale basata sugli abstract verificati il 10 ottobre 2026. Non è una revisione sistematica aggiornata dell’intera letteratura. Revisione finale dell’autore ancora prevista.</p>}<section class="panel"><h2>Esplora il parametro</h2><p>Il filtro descrive soltanto il contenuto in milligrammi per litro. Non traduce questa guida in un elenco di acque da scegliere.</p><a class="button" href={href('acque/?f='+g.filter)}>{filter.label} mg/L →</a></section><section><h2>Fonti e limiti</h2>{g.sources.length?<ul>{g.sources.map(([label,url])=><li><a href={url} rel="noopener noreferrer">{label} ↗</a></li>)}</ul>:<p>Riferimenti specifici ancora da verificare. Nessuna conclusione clinica pubblicata.</p>}</section><section class="strip"><p><strong>Parla con il tuo medico.</strong><br/>Per una condizione diagnosticata, segui le indicazioni del tuo medico.</p></section><a href={href('metodologia/')}>Come leggiamo dati e studi →</a></article></Layout>
