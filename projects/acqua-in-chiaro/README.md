@@ -1,6 +1,8 @@
 # Acqua in chiaro
 
-**Status: project brief / in development.** Working title. No operational catalogue or verified rules engine is included yet.
+**Status: checkpoint 1 implemented — legal-source configuration awaiting review.** No operational catalogue or clinical recommendation engine is included yet.
+
+[Review the verified threshold table and required corrections](docs/checkpoint-1.md) · [TypeScript configuration](src/rules/thresholds.ts)
 
 [Read the Italian project overview](https://blumanio.github.io/projects/acqua-in-chiaro/)
 
@@ -41,4 +43,4 @@ The supplied brief's numerical thresholds, infant-suitability logic and health p
 
 ## Current deliverables
 
-A linked homepage card, Italian project overview and this project brief. The next implementation checkpoint is legal/source verification. No dependencies or health filters have been added to the live portfolio.
+The portfolio overview, this brief, and the checkpoint-1 source-audited TypeScript threshold configuration. Next: review checkpoint 1, then build the data pipeline. No dependencies or health filters have been added to the live portfolio.
